@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sunyard.mylibrary">
+
+    <application>
+        <activity
+            android:name=".LoginAty"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+    </application>
+</manifest>

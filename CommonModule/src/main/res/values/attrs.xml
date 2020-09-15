@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UpAndDownBtnView">
+        <!-- 左右2边+-按钮的宽度 -->
+        <attr name="btnWidth" format="dimension" />
+        <!-- 中间TextView的宽度 -->
+        <attr name="tvWidth" format="dimension" />
+        <!--<attr name="tvColor" format="color"/>-->
+        <attr name="tvTextSize" format="dimension" />
+        <attr name="btnTextSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="LibTextCompoundEditText">
+        <attr name="lib_textCompoundSize" format="float" />
+        <attr name="lib_textCompoundColor" format="color" />
+        <attr name="lib_textCompoundBold" format="boolean" />
+        <attr name="lib_textCompoundStart" format="string" />
+        <attr name="lib_textCompoundTop" format="string" />
+        <attr name="lib_textCompoundEnd" format="string" />
+        <attr name="lib_textCompoundBottom" format="string" />
+        <attr name="lib_drawableStart" format="reference" />
+        <attr name="lib_drawableTop" format="reference" />
+        <attr name="lib_drawableEnd" format="reference" />
+        <attr name="lib_drawableBottom" format="reference" />
+        <attr name="lib_amount" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="busMain">
+        <attr name="busName" format="string" />
+        <attr name="backgroundcolor" format="color" />
+        <attr name="busImg" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LibPrintView">
+        <attr name="lib_duration" format="integer" />
+        <attr name="lib_bodyColor" format="color" />
+        <attr name="lib_bodyWidth" format="dimension" />
+        <attr name="lib_paperColor" format="color" />
+        <attr name="lib_paperWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LibSettingsItem">
+        <attr name="lib_title" format="string" />
+        <attr name="lib_value" format="string" />
+        <attr name="lib_titleColor" format="color" />
+        <attr name="lib_valueColor" format="color" />
+        <attr name="lib_showArrow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LibJustifyTextView">
+        <attr name="lib_leftText" format="string" />
+        <attr name="lib_leftTextSize" format="float" />
+        <attr name="lib_leftTextColor" format="color" />
+        <attr name="lib_leftTextBold" format="boolean" />
+        <attr name="lib_rightText" format="string" />
+        <attr name="lib_rightTextSize" format="float" />
+        <attr name="lib_rightTextColor" format="color" />
+        <attr name="lib_rightTextBold" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LibJustifyTextLayout">
+        <attr name="lib_separate" format="boolean" />
+        <attr name="lib_leftSize" format="float" />
+        <attr name="lib_leftColor" format="color" />
+        <attr name="lib_leftBold" format="boolean" />
+        <attr name="lib_rightSize" format="float" />
+        <attr name="lib_rightColor" format="color" />
+        <attr name="lib_rightBold" format="boolean" />
+    </declare-styleable>
+
+</resources>

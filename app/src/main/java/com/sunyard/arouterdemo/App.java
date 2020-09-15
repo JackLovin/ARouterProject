@@ -8,16 +8,10 @@ import com.sunyard.commonmodule.base.BaseApplication;
  */
 public class App extends BaseApplication {
 
-    static App mApp;
-
-    public static App getApp() {
-        return mApp;
-    }
 
     @Override
     public void onCreate() {
         super.onCreate();
-        mApp=this;
 
     }
 }

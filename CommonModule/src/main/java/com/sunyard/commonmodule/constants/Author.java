@@ -8,9 +8,11 @@ package com.sunyard.commonmodule.constants;
  * @time 2020/9/15 10:05 AM
  */
 public class Author {
-    private String name;
-    private int age;
-    private String county;
+     String name;
+     int age;
+     String county;
+
+     public Author(){}
     public String getName() {
         return name;
     }

@@ -43,7 +43,8 @@ dependencies {
     if (isModule.toBoolean()) {//组件模式下----只依赖CommonModule
         implementation project(path: ':CommonModule')
     } else {//集成模式下---依赖所有的业务Module
-        implementation project(path: ':mylibrary')
+        implementation project(path: ':loginModule')
     }
+    api "com.google.code.gson:gson:$rootProject.ext.gsonVersion"
 
 }

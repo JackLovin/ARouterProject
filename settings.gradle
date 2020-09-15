@@ -1,4 +1,4 @@
 include ':CommonModule'
-include ':mylibrary'
+include ':loginModule'
 include ':app'
 rootProject.name = "ARouterDemo"

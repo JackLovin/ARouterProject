@@ -6,10 +6,17 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import com.sunyard.commonmodule.BuildConfig;
 
 public class BaseApplication extends Application {
+    static BaseApplication mApp;
+
+    public static BaseApplication getApp() {
+        return mApp;
+    }
 
     @Override
     public void onCreate() {
         super.onCreate();
+        mApp=this;
+
         initARouter();
     }
 

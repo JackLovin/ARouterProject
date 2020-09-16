@@ -3,11 +3,12 @@
     package="com.sunyard.mylibrary">
 
     <application>
-
+        <activity android:name=".ActivityInterceptor"></activity>
+        <activity android:name=".ActivityIntentData" />
+        <activity android:name=".ActivityResult" />
         <activity
             android:name=".LoginActivity"
-            android:windowSoftInputMode="adjustPan|stateHidden"
-            />
+            android:windowSoftInputMode="adjustPan|stateHidden" />
     </application>
 
 </manifest>

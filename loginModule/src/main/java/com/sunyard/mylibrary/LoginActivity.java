@@ -9,12 +9,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.Toolbar;
 
-
-import com.alibaba.android.arouter.facade.annotation.Autowired;
 import com.alibaba.android.arouter.facade.annotation.Route;
 
 import com.alibaba.android.arouter.launcher.ARouter;
@@ -33,48 +31,26 @@ import com.sunyard.commonmodule.constants.PathConstants;
  */
 
 
-@Route(path = PathConstants.LOGIN_PATH, extras = 1)
-public class LoginActivity extends Activity {
+@Route(path = PathConstants.LOGIN_PATH)
+public class LoginActivity extends IBaseActivity {
 
     TextInputEditText textInputEditText;
     TextInputEditText etPassword;
-
+    private static final String TAG = "LoginActivity";
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+    public void initView() {
         textInputEditText=findViewById(R.id.et_username);
         etPassword=findViewById(R.id.et_password);
     }
-    public String getStringByUI(View view) {
-        if (view instanceof EditText) {
-            return ((EditText) view).getText().toString().trim();
-        } else if (view instanceof TextView) {
-            return ((TextView) view).getText().toString().trim();
-        }
-        return "";
+
+    @Override
+    public int getContentViewId() {
+        return R.layout.activity_login;
     }
 
-    public void getData(View view) {
 
 
-        new LoginModel().getAccountData(getStringByUI(textInputEditText), getStringByUI(etPassword), new ILoginCallback() {
-            @Override
-            public void onSuccess(Boolean isLogin) {
-                if (isLogin) {
-
-
-                }
-            }
-
-            @Override
-            public void onFailed(String msg) {
-
-            }
-        });
-
-    }
 
 
 }

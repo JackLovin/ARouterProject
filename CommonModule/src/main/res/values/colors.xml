@@ -2,80 +2,14 @@
 <resources>
     <color name="colorPrimary">#FF5201</color>
     <color name="colorPrimaryDark">#cd3301</color>
-    <!--主界面背景色-->
-    <!--交易图标背景色-->
-    <!--管理图标背景色-->
-    <!--系统管理图标背景色-->
+    <color name="colorAccent">#D81B60</color>
 
-    <!--预授权图标背景色-->
-
-    <!--电子现金图标背景色-->
-
-    <!--打印业务图标背景色-->
-
-    <!--终端秘钥管理图标背景色-->
-
-    <!--清除交易图标背景色-->
-
-    <!--参数下载图标背景色-->
-
-    <!--分期业务图标背景色-->
 
     <color name="md_red_800">#c41411</color>
     <color name="md_red_900">#b0120a</color>
 
-    <!-- 边框色 -->
-    <!-- 划过的颜色 -->
-    <!-- 系统管理选中功能的颜色 -->
-    <!-- 文字颜色-->
-    <!-- 不重要的文字 -->
-
-    <!-- 标题颜色-->
-
-    <!-- QRCode scanner color begin -->
-
-    <!-- QRCode scanner color end -->
-
-    <!-- 边框色 -->
-
-    <!--reds-->
-
-    <!-- pinks -->
-
-    <!-- purples -->
-
-    <!-- deep purples -->
-
-    <!-- indigo -->
-
-    <!--blue-->
-
-    <!-- light blue-->
-
-    <!-- cyan -->
-
-    <!-- teal -->
-
-    <!-- green -->
-
-    <!--light green-->
-
-    <!-- lime-->
-
-    <!--yellow -->
-
-    <!--amber-->
-
-    <!--orange-->
-
-    <!--deep orange-->
-
-    <!--brown -->
-
-    <!--grey-->
     <color name="md_grey_500">#9e9e9e</color>
     <color name="md_grey_800">#424242</color>
     <color name="md_white_1000">#ffffff</color>
 
-    <!--blue grey-->
 </resources>
